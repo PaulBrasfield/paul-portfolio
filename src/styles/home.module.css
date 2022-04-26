@@ -20,3 +20,13 @@
   margin-top: 20px;
   font-weight: 500;
 }
+
+.banner {
+  width: 100%;
+}
+
+.bannerLink {
+  font-size: 12px;
+  text-align: center;
+  color: #bbb;
+}
