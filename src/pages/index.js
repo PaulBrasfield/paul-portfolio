@@ -23,11 +23,6 @@ export default function Home({ data }) {
           href="https://www.vecteezy.com/free-vector/web-development"
         >
           <GatsbyImage image={banner} alt="Banner" className={styles.banner} />
-          {/* <img
-            src="banner.png"
-            alt="Site banner"
-            style={{ maxWidth: "100%" }}
-          ></img> */}
           Web Development Vectors by Vecteezy
         </a>
       </section>

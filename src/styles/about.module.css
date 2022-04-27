@@ -1,0 +1,11 @@
+.headshot {
+  width: 40%;
+  float: left;
+  margin-top: 35px;
+  margin-right: 35px;
+}
+
+.header h1 {
+  text-align: center;
+  font-size: 3em;
+}
