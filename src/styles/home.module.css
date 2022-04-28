@@ -12,6 +12,7 @@
   font-weight: 400;
   margin-bottom: 20px;
 }
+
 .btn {
   display: inline-block;
   background: #2b292a;
@@ -19,6 +20,13 @@
   border-radius: 10px;
   margin-top: 20px;
   font-weight: 500;
+}
+
+.btn:hover {
+  background-color: white;
+  color: #2b292a;
+  transform: translate(10px, 15%);
+  transition: 0.4s;
 }
 
 .banner {

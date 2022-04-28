@@ -9,3 +9,9 @@
   text-align: center;
   font-size: 3em;
 }
+
+.header strong:hover {
+  color: #2b292a;
+  transform: translate(10px, 15%);
+  transition: 0.4s;
+}

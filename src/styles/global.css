@@ -47,9 +47,30 @@ nav a {
 }
 nav a:hover {
   border-color: white;
+  transform: translate(5px, 15%);
+  transition: 0.4s;
 }
-footer p {
+
+.footer {
   text-align: center;
+  padding-top: 40px;
+}
+
+.socials a {
+  padding-right: 10px;
+  margin: auto;
+  float: right;
+}
+
+.socials a:hover {
+  transform: translate(5px, 15%);
+  transition: 0.4s;
+}
+
+.socials p {
+  font-size: small;
+  display: inline-block;
   color: #bbb;
-  margin: 40px auto;
+  margin: auto;
+  padding-left: 0%;
 }

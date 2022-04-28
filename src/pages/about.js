@@ -47,10 +47,10 @@ export default function About({ data }) {
         <p>
           If you are interested in taking a look at my previous work, check out
           my{" "}
-          <Link to="/portfolio">
+          <Link to="/projects">
             <strong>Portfolio</strong>
           </Link>{" "}
-          page which list all of my projects along with their tech stacks.
+          page which lists all of my projects along with their tech stacks.
         </p>
       </div>
     </Layout>
