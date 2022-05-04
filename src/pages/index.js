@@ -39,3 +39,22 @@ export const query = graphql`
     }
   }
 `
+
+// export const blogQuery = graphql`
+//   query blogPosts {
+//     blog: allMarkdownRemark(
+//       sort: { fields: frontmatter___date, order: DESC }
+//       filter: { fileAbsolutePath: { regex: "/(blogPosts)/" } }
+//     ) {
+//       posts: nodes {
+//         frontmatter {
+//           title
+//           date
+//           author
+//         }
+//         excerpt
+//         id
+//       }
+//     }
+//   }
+// `

@@ -21,6 +21,7 @@ export default function Projects({ data }) {
                 image={
                   project.frontmatter.thumb.childImageSharp.gatsbyImageData
                 }
+                className={styles.thumbnail}
                 alt="Thumbnail"
               />
               <h3>{project.frontmatter.title}</h3>

@@ -1,0 +1,47 @@
+.notFound {
+  text-align: center;
+  margin: 40px;
+}
+
+.figure {
+  /* To correctly align image, regardless of content height: */
+  vertical-align: top;
+  display: inline-block;
+  /* To horizontally center images and caption */
+  text-align: center;
+  /* The width of the container also implies margin around the images. */
+}
+
+.ichthyocentaur {
+  display: inline-block;
+  font-weight: 800;
+}
+
+.ichthyocentaur:hover {
+  background-color: white;
+  color: #2b292a;
+  transform: translate(5px, 15%);
+  transition: 0.4s;
+}
+
+.thalassa {
+  display: inline-flex;
+  margin: 1px;
+}
+
+.judgingYou {
+  display: block;
+  padding-top: 5px;
+  font-style: italic;
+}
+
+.attribution {
+  display: block;
+  padding-top: 25px;
+  font-size: 12px;
+  color: #bbb;
+}
+
+.attribution a {
+  color: #dedede;
+}

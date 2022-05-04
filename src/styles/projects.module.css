@@ -23,6 +23,10 @@
   font-weight: 500;
 }
 
+.thumbnail {
+  border-radius: 10px;
+}
+
 .projects p {
   color: #ccc;
   margin-top: 4px;
