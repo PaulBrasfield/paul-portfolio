@@ -21,7 +21,7 @@ This project is a clone of the social media site Instagram. Users are able to lo
 
 ### Project Link
 
-You can view the live project [here](https://main.dilgl5julaohu.amplifyapp.com), while you can find the source code on my [GitHub](https://github.com/PaulBrasfield/finstagram).
+You can view the live project [**here**](https://main.dilgl5julaohu.amplifyapp.com), while you can find the source code on my [**GitHub**](https://github.com/PaulBrasfield/finstagram).
 
 ### Tech Stack
 

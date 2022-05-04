@@ -21,7 +21,7 @@ This project is actually this very site. I built my own personal website to host
 
 ### Project Link
 
-You are already viewing the live project, but you can find the source code on my [GitHub](https://github.com/PaulBrasfield/paul-portfolio).
+You are already viewing the live project, but you can find the source code on my [**GitHub**](https://github.com/PaulBrasfield/paul-portfolio).
 
 ### Tech Stack
 
