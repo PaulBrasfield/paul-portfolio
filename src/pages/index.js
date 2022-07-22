@@ -2,6 +2,7 @@ import { Link, graphql } from "gatsby"
 import React from "react"
 import Layout from "../components/Layout"
 import { GatsbyImage, getImage } from "gatsby-plugin-image"
+import { Helmet } from "react-helmet"
 import * as styles from "../styles/home.module.css"
 
 export default function Home({ data }) {
@@ -9,6 +10,9 @@ export default function Home({ data }) {
 
   return (
     <Layout>
+      <Helmet>
+        <title>Paul Brasfield Portfolio</title>
+      </Helmet>
       <section className={styles.header}>
         <div>
           <h2 className>Design</h2>

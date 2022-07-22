@@ -16,6 +16,8 @@ module.exports = {
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-netlify`,
+    `@pittica/gatsby-plugin-recaptcha`,
+    "gatsby-plugin-react-helmet",
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -28,6 +30,14 @@ module.exports = {
       options: {
         name: `images`,
         path: `${__dirname}/src/images/`,
+      },
+    },
+    {
+      resolve: `gatsby-plugin-recaptcha`,
+      options: {
+        async: false,
+        defer: false,
+        args: `?onload=onloadCallback&render=explicit`,
       },
     },
   ],
