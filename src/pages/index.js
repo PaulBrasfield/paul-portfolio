@@ -11,7 +11,7 @@ export default function Home({ data }) {
   return (
     <Layout>
       <Helmet>
-        <title>Paul Brasfield Portfolio</title>
+        <title>Paul Brasfield's Portfolio</title>
       </Helmet>
       <section className={styles.header}>
         <div>
@@ -43,22 +43,3 @@ export const query = graphql`
     }
   }
 `
-
-// export const blogQuery = graphql`
-//   query blogPosts {
-//     blog: allMarkdownRemark(
-//       sort: { fields: frontmatter___date, order: DESC }
-//       filter: { fileAbsolutePath: { regex: "/(blogPosts)/" } }
-//     ) {
-//       posts: nodes {
-//         frontmatter {
-//           title
-//           date
-//           author
-//         }
-//         excerpt
-//         id
-//       }
-//     }
-//   }
-// `

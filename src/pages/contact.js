@@ -1,14 +1,10 @@
 import React from "react"
 import Layout from "../components/Layout"
 import * as styles from "../styles/contact.module.css"
-import { Helmet } from "react-helmet"
 
 export default function Contact() {
   return (
     <Layout>
-      <Helmet>
-        <script src="https://www.google.com/recaptcha/api.js"></script>
-      </Helmet>
       <div className={styles.header}>
         <h1>Contact</h1>
         <p>
@@ -55,12 +51,6 @@ export default function Contact() {
                 required
               ></textarea>
             </label>
-            <div
-              class="g-recaptcha"
-              className={styles.recaptcha}
-              data-sitekey="6LdQwg4hAAAAAPwQVxJP6zNoc26z7y-oTenfCoTK"
-            ></div>
-
             <button className={styles.btn}>Send</button>
           </form>
         </div>

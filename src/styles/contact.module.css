@@ -26,10 +26,6 @@
   }
 }
 
-.recaptcha {
-  margin-top: 10px;
-}
-
 .form {
   display: grid;
   grid-template-columns: 1fr;
