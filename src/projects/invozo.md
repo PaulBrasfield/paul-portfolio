@@ -17,7 +17,7 @@ featuredImg: ../images/featured/invozo-banner.png
 
 ### Project Description
 
-This project is an invoice creator for individuals and businesses. Users are able to create an invoice, view current invoices, sort invoices by payment status, and edit and delete invoices. Future plans for this project include the ability to export nvoices as PDFs and print, categories for invoices by service(s) provided, and to create accounts to manage invoices created and owned by the user.
+This project is an invoice creator for individuals and businesses. Users are able to create an invoice, view current invoices, sort invoices by payment status, and edit and delete invoices. Future plans for this project include the ability to export invoices as PDFs and print, categories for invoices by service(s) provided, and to create accounts to manage invoices created and owned by the user.
 
 ### Project Link
 
