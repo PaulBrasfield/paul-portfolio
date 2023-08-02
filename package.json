@@ -6,7 +6,7 @@
   "license": "0BSD",
   "scripts": {
     "build": "gatsby build",
-    "develop": "NODE_ENV=development gatsby develop",
+    "develop": "GATSBY_GTAG_DEBUG=true gatsby develop",
     "start": "gatsby develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean"
