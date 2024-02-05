@@ -38,3 +38,8 @@
   text-align: center;
   color: #bbb;
 }
+
+.fadein {
+  opacity: 0;
+  transition: opacity 0.5s;
+}

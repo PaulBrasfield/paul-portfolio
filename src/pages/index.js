@@ -30,6 +30,42 @@ export default function Home({ data }) {
           Web Development Vectors by Vecteezy
         </a>
       </section>
+      <section className={styles.fadein}>
+        <section className={styles.header}>
+          <div>
+            <h2 className>Design</h2>
+            <h3>Develop & Deploy</h3>
+            <p>Web Developer & UX Designed based in Birmingham, AL</p>
+            <Link className={styles.btn} to="/projects">
+              Learn More
+            </Link>
+          </div>
+          <a
+            className={styles.bannerLink}
+            href="https://www.vecteezy.com/free-vector/web-development"
+          >
+            <GatsbyImage image={banner} alt="Banner" className={styles.banner} />
+            Web Development Vectors by Vecteezy
+          </a>
+        </section>
+        <section className={styles.header}>
+          <div>
+            <h2 className>Design</h2>
+            <h3>Develop & Deploy</h3>
+            <p>Web Developer & UX Designed based in Birmingham, AL</p>
+            <Link className={styles.btn} to="/projects">
+              Learn More
+            </Link>
+          </div>
+          <a
+            className={styles.bannerLink}
+            href="https://www.vecteezy.com/free-vector/web-development"
+          >
+            <GatsbyImage image={banner} alt="Banner" className={styles.banner} />
+            Web Development Vectors by Vecteezy
+          </a>
+        </section>
+      </section>
     </Layout>
   )
 }
